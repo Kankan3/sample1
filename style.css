@@ -187,7 +187,14 @@ header{
 	margin: 0 auto;
 }
 }
-
+@media screen and (max-width: 768px) {
+/* 768pxまでの幅の場合に適応される */
+header{
+	width: 100%;
+	height: 350px;
+	background-size:cover;
+}
+}
 /*ここまでheader*/
 
 /*ここからmain*/
