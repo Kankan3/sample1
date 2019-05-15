@@ -416,7 +416,7 @@ width: 100%;
 /* 768pxまでの幅の場合に適応される */
 .contact_img{
 	max-width: 100%;
-	margin: 0;
+	margin: 0 auto;
 }
 .contact_btn{
 	max-width: 100%;
