@@ -415,7 +415,7 @@ width: 100%;
 @media screen and (max-width: 768px) {
 /* 768pxまでの幅の場合に適応される */
 .contact_img{
-	max-width: 90%;
+	max-width: 100%;
 	margin: 0;
 }
 .contact_btn{
