@@ -68,6 +68,7 @@ body{
 	}
 }
 
+
 @media screen and (max-width: 940px){
 /*940pxまでの幅の場合に適応される */
 /*ここからハンバーガーメニュー作成*/
@@ -182,7 +183,7 @@ header{
 @media screen and (max-width: 940px){
 /*940pxまでの幅の場合に適応される */
 .header_rogo{
-	min-width: 75%;
+	min-width: 80%;
 	height: 240px;
 	margin: 0 auto;
 	text-align:center
@@ -199,6 +200,9 @@ header{
 .header_rogo{
 	justify-content: center;
 	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 header img{
 	max-width: 90%;
@@ -206,7 +210,6 @@ header img{
 }
 }
 /*ここまでheader*/
-
 
 /*ここからmain*/
 
@@ -313,6 +316,14 @@ h3{
 	margin:0 auto 10px auto;
 }
 }
+@media screen and (max-width: 768px) {
+/* 768pxまでの幅の場合に適応される */
+h3{
+	width: 100%;
+	margin:0 auto 20px;
+	text-align: center;
+}
+}
 /*ここまでmenu*/
 
 /*ここからaccess*/
@@ -399,13 +410,13 @@ width: 100%;
 }
 @media screen and (max-width: 940px){
 /*940pxまでの幅の場合に適応される */
-.contact_img{
-	min-width: 80%;
-	margin:0 auto;
-	}
+
 }
 @media screen and (max-width: 768px) {
 /* 768pxまでの幅の場合に適応される */
+.contact_img{
+		max-width: 90%;
+}
 .contact_btn{
 	max-width: 100%;
 }
