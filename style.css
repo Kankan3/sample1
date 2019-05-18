@@ -244,6 +244,12 @@ header img{
 	height: 600px;
 }
 }
+@media screen and (max-width: 768px) {
+/* 768pxまでの幅の場合に適応される */
+.about_p{
+	width: 100%;
+}
+}
 /*ここまでabout*/
 
 /*ここからmenu*/
@@ -323,6 +329,12 @@ h3{
 	margin:0 auto 20px;
 	text-align: center;
 }
+.menu_course{
+	width: 100%;
+}
+.menu_p{
+	width: 100%;
+}
 }
 /*ここまでmenu*/
 
@@ -369,7 +381,12 @@ width: 100%;
 .access{
 	height: 1000px;
 }
-
+}
+@media screen and (max-width: 768px) {
+/* 768pxまでの幅の場合に適応される */
+.access_p{
+	width: 100%;
+}
 }
 /*ここまでaccess*/
 
